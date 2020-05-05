@@ -121,14 +121,7 @@ padding-top: 10px;
     font-weight: 300;
 }
 
-.photo{
-    background-color: blue;
-    height:12vh;
-    margin-top:20px;
-    margin-left: 190px;
-    margin-right: 190px;
-    border-radius: 180px;
-}
+
 
 .profileSkills{
     padding-top: 10px;
@@ -164,4 +157,9 @@ margin-right: 30px;
     margin-left:50px ;
     margin-right: 50px;
 
+}
+.photo img{
+    grid-template-columns: auto;
+    
+    border-radius: 300px;
 }
