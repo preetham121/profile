@@ -10,7 +10,7 @@ body {
 }
 
 .name{
-    padding-left: 12px;
+    padding-left:12px;
     padding-bottom: 20px;
     padding-top:5px ;
 }
@@ -105,14 +105,15 @@ padding-top: 10px;
     background-color:rgba(255, 255, 255, 0.87) !important;
     padding-bottom: 20px;
     margin-top: 60px;
-    margin-left:50px ;
-    margin-right: 50px;
+    margin-left:30px ;
+    margin-right: 30px;
     margin-bottom: 20px;
-    border-radius: 10px;
+    border-radius: 15px;
     box-sizing: border-box;
     box-shadow: 100px blue;
     transition: 0.5s;
     color:rgb(56, 53, 53);
+    
 }
 
 .content{
@@ -145,19 +146,13 @@ padding-top: 10px;
 }
 
 .container1:hover{
-margin-left:30px;
-margin-right: 30px;
+margin-left:20px;
+margin-right: 20px;
 
 }
 
-.container2{
-    background-color: #7681b8;
-    width:80%;
-    margin-top: 60px;
-    margin-left:50px ;
-    margin-right: 50px;
 
-}
+
 .photo img{
     grid-template-columns: auto;
     
