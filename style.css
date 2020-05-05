@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+ 
+}
+body {
+    background-color:black!important;
+   
+}
+
+.name{
+    padding-left: 12px;
+    padding-bottom: 20px;
+    padding-top:5px ;
+}
+
+
+.navbar{
+   color:rgba(255, 255, 255, 0.856);
+   background:#3b3c40;
+    height:10vh;
+    padding: 0;
+    position: fixed;
+}
+.profile a {
+    text-decoration: none!important;
+    color:rgba(255, 255, 255, 0.856) ;
+    font-size: 23px;
+}
+
+.burger .line{
+    height:4px;
+    width:30px;
+    margin:4px;
+    color: black;
+    background-color:rgba(255, 255, 255, 0.856);
+    
+}
+
+.burger{
+    position: relative;
+    right:5%;
+    float:right!important;
+   cursor:pointer;
+ 
+ 
+    
+}
+.burger2{
+    display: none;
+   
+   
+    
+}
+
+.lists{
+    display: none;
+    animation-name:bring ;
+    animation-duration:0.5s;
+    transition: ease-in-out;
+    
+    width: 100%;
+    
+
+}
+.lists ul li{
+padding-top: 10px;
+    padding-left: 50px;
+    list-style: none;
+    color:rgba(255, 255, 255, 0.856);
+    font-size: larger;
+    background-color:#3b3c40 ;
+}
+
+.lists ul li a {
+ text-decoration: none!important;   
+ color:rgba(255, 255, 255, 0.856) ;
+}
+.lists ul li a:hover{
+    color:silver;
+}
+
+.listContent:hover{
+    color:silver;
+}
+.item3{
+    padding-bottom: 10px;
+}
+.profile a:hover{
+
+    color:silver ;
+}
+
+@keyframes bring{
+    from {
+        transform: translatex(-2000px);
+    }
+    to{
+        transform: translatex(0px);
+    }
+}
+
+.container1{
+    background-color:rgba(255, 255, 255, 0.87) !important;
+    padding-bottom: 20px;
+    margin-top: 60px;
+    margin-left:50px ;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 100px blue;
+    transition: 0.5s;
+    color:rgb(56, 53, 53);
+}
+
+.content{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 300;
+}
+
+.photo{
+    background-color: blue;
+    height:12vh;
+    margin-top:20px;
+    margin-left: 190px;
+    margin-right: 190px;
+    border-radius: 180px;
+}
+
+.profileSkills{
+    padding-top: 10px;
+    border-top: solid grey 1px;
+    margin-top:20px !important;
+    width: 80%;
+    
+    margin: auto;
+}
+
+.edit{
+    font-weight: 600;
+}
+
+.forpad{
+    padding-top: 10px;
+   
+}
+.forpad2{
+    padding-bottom: 30px!important;
+}
+
+.container1:hover{
+margin-left:30px;
+margin-right: 30px;
+
+}
+
+.container2{
+    background-color: #7681b8;
+    width:80%;
+    margin-top: 60px;
+    margin-left:50px ;
+    margin-right: 50px;
+
+}
