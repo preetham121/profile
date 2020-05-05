@@ -2,12 +2,15 @@
     margin:0;
     padding:0;
     font-family: 'Roboto', sans-serif;
+
  
 }
 body {
     background-color:black!important;
    
 }
+
+
 
 .name{
     padding-left:12px;
@@ -341,6 +344,7 @@ margin-right: 20px;
     margin-top: 20px;
     height: 6vh;
     border-radius: 10px;
+    transition: 2s;
     
 }
 .trueORfalse{
@@ -408,12 +412,24 @@ footer{
     height: 8vh;
     text-align: end;
     padding-top: 20px;
+
 }
 footer span{
     margin-top: 40px;
     padding-top: 50px!important;
     padding: 30px;
     font-size: 20px;
+    
+}
+
+.follow{
+    padding: 10px;
+    padding-top: 30px;
+    margin-top: 20px;
+    font-size: larger;
+    font-weight: 600;
+color:rgba(0, 0, 0, 0.753);
+text-align: center;
     
 }
 
@@ -424,3 +440,4 @@ footer span{
     margin-top: 50%;
  
 }
+

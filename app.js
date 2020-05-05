@@ -108,8 +108,19 @@ function reversepicture(){
     }
     
     function decline(){
-        let decline = document.querySelector(".container");
+        let decline = document.querySelector("footer");
         decline.style.display = "none";
+        let decline1 = document.querySelector(".navbar");
+        decline1.style.display = "none";
+        let decline2= document.querySelector("#profile");
+        decline2.style.display = "none";
+        let decline3= document.querySelector("#info");
+        decline3.style.display = "none";
+        let decline4= document.querySelector("#someMore");
+        decline4.style.display = "none";
+        let decline5= document.querySelector("#acceptance");
+        decline5.style.display = "none";
+
         let ifdecline = document.querySelector(".ifdeclined");
         ifdecline.style.display = "block";
     }
