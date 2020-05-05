@@ -107,6 +107,13 @@ function reversepicture(){
     
     }
     
+    function decline(){
+        let decline = document.querySelector(".container");
+        decline.style.display = "none";
+        let ifdecline = document.querySelector(".ifdeclined");
+        ifdecline.style.display = "block";
+    }
+
 
 
 

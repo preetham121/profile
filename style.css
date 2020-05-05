@@ -278,3 +278,149 @@ margin-right: 20px;
 .pics2 span {
     font-size: 23px;
 }
+
+.photo2{
+    margin-top: 40px;
+  margin:10px;
+}
+.photo2 img{
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.explain{
+    margin-top: 5px;
+    padding-top: 0px;
+  
+    font-weight:600;
+    color:rgb(19, 19, 19);
+    
+}
+.knowMe {
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.explain a{
+    text-decoration: none;
+}
+
+.photo3{
+    display: grid;
+    grid-template-columns: 1fr;
+    border-bottom:solid black 1px;
+    width: 90%;
+    margin: auto;
+   
+}
+.photo3 img{
+   margin:auto;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    grid-template-columns: 1fr;
+    width: 60%;
+    border-radius: 10px;
+    
+   
+}
+
+.true{
+    background-color: rgb(33, 235, 33);
+    width: 80%;
+    margin: auto;
+    height: 6vh;
+    border-radius: 10px;
+    text-align: center;
+  
+    
+    
+}
+.false{
+    background-color: rgb(255, 0, 0);
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    height: 6vh;
+    border-radius: 10px;
+    
+}
+.trueORfalse{
+    margin-top: 20px;
+}
+
+.true div{
+    padding-top:6px;
+}
+
+.false div{
+    text-align: center;
+    padding-top:6px;
+   
+}
+.false div span {
+    font-weight: 600;
+}
+.true div span {
+    font-weight: 600;
+}
+.container3{
+    background-color: rgb(100, 100, 100);
+    color:black;
+    margin:60px;
+    border-radius: 10px;
+    font-size: 20px;
+    position: absolute;
+    animation-name: move;
+    animation-duration:1s ;
+    animation-fill-mode: forwards;
+    transition: 1s;
+  
+}
+
+.container2 div span a {
+text-decoration: none;
+color:black;
+}
+
+
+
+
+@keyframes move {
+    0%{
+        transform: translateY(200px);
+    }
+    50%{
+        transform: translateY(300px);
+    }
+    100%{
+        transform: translateY(100px);
+    }
+}
+
+.container2 div span a:hover{
+    font-size: 20px;
+    
+}
+
+footer{
+    background-color: #424249;
+    color:black;
+    width:100%;
+    height: 8vh;
+    text-align: end;
+    padding-top: 20px;
+}
+footer span{
+    margin-top: 40px;
+    padding-top: 50px!important;
+    padding: 30px;
+    font-size: 20px;
+    
+}
+
+.ifdeclined{
+    display: none;
+    color: rgb(201, 201, 201);
+    text-align: center;
+    margin-top: 50%;
+ 
+}
