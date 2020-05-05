@@ -102,7 +102,7 @@ padding-top: 10px;
 }
 
 .container1{
-    background-color:rgba(255, 255, 255, 0.87) !important;
+    background-color:#cfcfcf !important;
     padding-bottom: 20px;
     margin-top: 60px;
     margin-left:30px ;
@@ -112,7 +112,7 @@ padding-top: 10px;
     box-sizing: border-box;
     box-shadow: 100px blue;
     transition: 0.5s;
-    color:rgb(56, 53, 53);
+    color:rgb(56, 55, 55);
     
 }
 
@@ -135,6 +135,7 @@ padding-top: 10px;
 
 .edit{
     font-weight: 600;
+    padding-bottom: 1px;
 }
 
 .forpad{
@@ -157,4 +158,123 @@ margin-right: 20px;
     grid-template-columns: auto;
     
     border-radius: 300px;
+}
+
+.container2{
+    background-color: #9e9e9e!important;
+    padding-bottom: 20px;
+    margin-top: 60px;
+    margin-left:30px ;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 100px blue;
+    transition: 0.5s;
+    color:rgb(0, 0, 0);
+    
+}
+
+.about{
+    font-weight:900;
+padding-top: 20px;
+margin-top:20px !important;
+width: 80%;
+margin: auto;
+}
+
+.container2:hover{
+    margin-left:20px;
+margin-right: 20px;
+}
+
+.pics2{
+    display:none;
+}
+
+.pictures{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.pictures img {
+    width:100%;
+    padding:5px;
+
+
+}
+
+.image{
+    margin-top: 30px!important;
+    
+}
+
+.pictures p a {
+   
+    text-decoration: none;
+    width:100%;
+    
+    color:#9e9e9e!important;
+    font-size: 23px;
+  
+}
+
+.pictures p{
+    padding-left:10px;
+    padding-top: 10px;
+}
+
+#forPictures{
+    display:none;
+}
+
+.addon{
+    display: none;
+    padding: 10px;
+    margin-top:30px;
+    border-radius: 10px;
+    background-color:#3b3c40;
+    
+}
+
+.addon p {
+  color: rgba(226, 226, 226, 0.856);
+  font-weight: 500;
+
+}
+.dubclick{
+    display: none;
+    font-size: 23px;
+    transition: 0.5s;
+}
+
+.addon2{
+    display: none;
+    padding: 10px;
+    margin-top:30px;
+    border-radius: 10px;
+    background-color:#3b3c40;
+    
+}
+
+.addon2 p {
+  color:  rgba(226, 226, 226, 0.856);
+  font-weight: 500;
+
+}
+.dubclick2{
+    display: none;
+    font-size: 23px;
+    transition: 0.5s;
+}
+.fonts{
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.font{
+    padding-left: 5px;
+}
+.pics2 span {
+    font-size: 23px;
 }
