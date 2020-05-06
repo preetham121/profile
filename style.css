@@ -10,9 +10,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.dublists{
-    display:none;
-}
+
 
 .name{
     padding-left:12px;
@@ -444,6 +442,4 @@ text-align: center;
     margin-top: 50%;
  
 }
-.dublists{
-    display:none;
-}
+
